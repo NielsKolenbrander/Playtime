@@ -1,0 +1,42 @@
+
+body {font-family:Arial, sans-serif;}
+
+.mainContainer {max-width:1600px;margin:0 auto;}
+
+table {border:1px solid #252525;margin:0 auto;}
+table tr {}
+table tr td {border-top:1px solid #252525;border-right:1px solid #252525;text-align:center;min-width:26px;}
+
+table th img,
+table td img {border:1px solid #ccc;}
+.klas table th img {border:none;}
+
+table td.first {background-color:#ffffbf;}
+table td.second {background-color:#dfdfdf;}
+table td.third {background-color:#ffdf9f;}
+table td.dnf {background-color:#efcfff;}
+table td.points {background-color:#dfffdf;}
+table td.nonpoints {background-color:#cfcfff;}
+table td.dsq {background-color:#000;color:#fff;}
+table td.dnq {background-color:#ffcfcf;}
+table td.pole {font-weight:700;}
+table td.fastlap {font-style:italic;}
+
+/* year navigation */
+.yearNavigation {display:flex;justify-content:center;align-items:center;height:50px;}
+.yearNavigation article {margin:0 10px;}
+.yearNavigation article a {text-decoration:none;color:#000;}
+.yearNavigation article a:hover {color:#555;}
+
+/* points options */
+.pointsControl {text-align:center;font-size:12px;}
+.pointsControl .pointsOption {display:inline-block;vertical-align:top;margin:0 20px;}
+.pointsControl .pointsOption.activePoints h3 {color:#cc4411;}
+.pointsControl .pointsOption ol {padding:0;}
+.pointsControl .pointsOption ol li {opacity:0.3;}
+.pointsControl .pointsOption ol li.puntah {opacity:1;}
+
+/* race */
+.location {float:left;}
+.results {float:left;}
+.results table tr td img {border:1px solid #ccc;}
